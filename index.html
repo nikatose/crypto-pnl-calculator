@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto PnL Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <section class="card">
+      <h1>Crypto PnL Calculator</h1>
+      <p class="subtitle">Calculate your crypto profit or loss instantly.</p>
+
+      <div class="grid">
+        <label>
+          Buy Price
+          <input id="buyPrice" type="number" step="any" placeholder="50000">
+        </label>
+
+        <label>
+          Sell Price
+          <input id="sellPrice" type="number" step="any" placeholder="55000">
+        </label>
+
+        <label>
+          Amount
+          <input id="amount" type="number" step="any" placeholder="0.5">
+        </label>
+
+        <label>
+          Trading Fee (%)
+          <input id="fee" type="number" step="any" value="0.1">
+        </label>
+      </div>
+
+      <button onclick="calculate()">Calculate PnL</button>
+
+      <div id="result" class="result hidden">
+        <div>
+          <span>Investment</span>
+          <strong id="investment">$0.00</strong>
+        </div>
+
+        <div>
+          <span>Profit / Loss</span>
+          <strong id="pnl">$0.00</strong>
+        </div>
+
+        <div>
+          <span>ROI</span>
+          <strong id="roi">0%</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
