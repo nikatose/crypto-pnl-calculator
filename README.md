@@ -4,7 +4,7 @@ A simple and fast cryptocurrency profit & loss calculator.
 
 ## 🚀 Live Demo
 
-[Open Crypto PnL Calculator](https://ТВОЙ_USERNAME.github.io/crypto-pnl-calculator/)
+[Open Crypto PnL Calculator](https://nikatose.github.io/crypto-pnl-calculator/)
 
 ## ✨ Features
 
